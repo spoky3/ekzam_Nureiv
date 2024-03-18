@@ -1,0 +1,129 @@
+body {
+    .container {
+    background: linear-gradient(180deg, #cd7d7d 0%, rgba(99, 70, 161, 0.63) 100%);
+    display: flex;
+    max-width: 793px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    color: #000;
+    font-weight: 300;
+    text-align: center;
+    padding: 48px 60px 80px;
+  }
+
+  @media (max-width: 991px) {
+    .container {
+      padding: 0 20px;
+    }
+  }
+
+  .form-wrapper {
+    display: flex;
+    width: 170px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .label {
+    font-family: Inter, sans-serif;
+  }
+
+  .input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    height: 40px;
+  }
+
+  .last-name-label {
+    font-family: Inter, sans-serif;
+    align-self: center;
+    margin-top: 25px;
+  }
+
+  .last-name-input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    margin-top: 5px;
+    height: 40px;
+  }
+
+  .middle-name-label {
+    font-family: Inter, sans-serif;
+    align-self: center;
+    margin-top: 25px;
+  }
+
+  .middle-name-input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    margin-top: 6px;
+    height: 40px;
+  }
+
+  .birthdate-label {
+    font-family: Inter, sans-serif;
+    margin-top: 9px;
+  }
+
+  .birthdate-input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    height: 40px;
+  }
+
+  .group-label {
+    font-family: Inter, sans-serif;
+    margin-top: 23px;
+  }
+
+  .group-input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    height: 40px;
+  }
+
+  .submit-button {
+    font-family: Inter, sans-serif;
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    margin-top: 87px;
+    font-weight: 500;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 14px 58px;
+    cursor: pointer;
+  }
+
+.password-input {
+    border-radius: 6px;
+    border: 1px solid rgba(236, 117, 117, 1);
+    background-color: #e7c7c7;
+    height: 40px;
+  }
+
+  @media (max-width: 991px) {
+    .submit-button {
+      margin-top: 40px;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
